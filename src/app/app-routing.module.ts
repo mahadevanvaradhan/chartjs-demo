@@ -14,7 +14,9 @@ import { InvestmentMonthComponent } from './investment-month/investment-month.co
 import { ReturnMonthComponent } from './return-month/return-month.component'
 import { NewInvestmentComponent } from './new-investment/new-investment.component'
 import { TierReturnComponent } from './tier-return/tier-return.component'
-
+import { PortfolioValueComponent } from './portfolio-value/portfolio-value.component'
+import { NetIRRComponent } from './net-irr/net-irr.component'
+import { CummNetCashFlowComponent } from './cumm-net-cash-flow/cumm-net-cash-flow.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -26,11 +28,15 @@ const routes: Routes = [
   { path: 'tvpi', component: TvpiComponent },
   { path: 'lpcalledcapital', component: LPCalledCapitalComponent },
   { path: 'netcashflow', component: NetCashFlowComponent },
+  { path: 'cummnetcashflow', component: CummNetCashFlowComponent },
   { path: 'sidenav', component: SidenavComponent },
   { path: 'investmonth', component: InvestmentMonthComponent },
   { path: 'returnmonth', component: ReturnMonthComponent },
   { path: 'newinvestment', component: NewInvestmentComponent },
   { path: 'tierreturn', component: TierReturnComponent },
+  { path: 'portfoliovalue', component: PortfolioValueComponent },
+  { path: 'netirr', component: NetIRRComponent },
+
 
 ];
 

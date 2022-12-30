@@ -1,29 +1,25 @@
 import { Component, OnInit } from '@angular/core';
 import Chart from 'chart.js/auto';
 
-import data from './tvpi-data';
+import data from './portfolio-value-data';
 
 @Component({
-  selector: 'app-tvpi',
-  templateUrl: './tvpi.component.html',
-  styleUrls: ['./tvpi.component.scss'],
+  selector: 'app-portfolio-value',
+  templateUrl: './portfolio-value.component.html',
+  styleUrls: ['./portfolio-value.component.scss'],
 })
-export class TvpiComponent implements OnInit {
+export class PortfolioValueComponent implements OnInit {
   public chart: any;
-  public barChartData: any;
   constructor() {}
   createChart() {
-    this.chart = new Chart('TVPIChart', {
+    this.chart = new Chart('MyPortfolioChart', {
       type: 'bar', //this denotes tha type of chart
+
       data: data,
       options: {
         aspectRatio: 2.5,
         responsive: true,
         plugins: {
-          title:{
-            text:"TVPI",
-            display: false
-          },
           legend: {
               display: true,
               position: 'bottom',

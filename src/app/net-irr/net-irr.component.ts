@@ -1,29 +1,25 @@
 import { Component, OnInit } from '@angular/core';
 import Chart from 'chart.js/auto';
 
-import data from './tvpi-data';
+import data from './net-irr-data';
 
 @Component({
-  selector: 'app-tvpi',
-  templateUrl: './tvpi.component.html',
-  styleUrls: ['./tvpi.component.scss'],
+  selector: 'app-net-irr',
+  templateUrl: './net-irr.component.html',
+  styleUrls: ['./net-irr.component.scss'],
 })
-export class TvpiComponent implements OnInit {
+export class NetIRRComponent implements OnInit {
   public chart: any;
-  public barChartData: any;
   constructor() {}
   createChart() {
-    this.chart = new Chart('TVPIChart', {
+    this.chart = new Chart('MyNetIRRChart', {
       type: 'bar', //this denotes tha type of chart
+
       data: data,
       options: {
         aspectRatio: 2.5,
         responsive: true,
         plugins: {
-          title:{
-            text:"TVPI",
-            display: false
-          },
           legend: {
               display: true,
               position: 'bottom',

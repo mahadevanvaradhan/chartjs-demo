@@ -19,6 +19,10 @@ export class InvestmentMonthComponent implements OnInit {
         aspectRatio: 2.0,
         responsive: true,
         plugins: {
+          title: {
+            display: true,
+            text: 'TVPI'
+                },
           legend: {
               display: true,
               position: 'left',
