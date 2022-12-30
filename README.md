@@ -11,3 +11,11 @@ Run `ng serve  --open` for a dev server. Navigate to `http://localhost:4200/`. T
 
 ![plot](demo.png)
 
+
+## Firebase deployment
+
+$firebase login
+$firebase use --add
+$firebase deploy
+
+#### link to demo chart: https://chart-js-ts.web.app/
