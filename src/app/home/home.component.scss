@@ -1,0 +1,62 @@
+.container {
+    background-color: red;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+.list-item{
+  max-width: 13em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    margin-bottom: 1.5em;
+  }
+  
+  li {
+    float: left;
+  }
+
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  .container-box {
+    display: flex;
+    justify-content: space-around;  
+}
+  .container-box > div {
+    width: 34em; /* Declare your value. Can be in relative units. */
+    height: 20em;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px black solid;
+  
+    /* IE fix. */
+    *display: inline;
+    zoom: 1;
+  }
+
+  .outer{
+    display: inline-table !important;
+  }
+  .act-home{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+  }
+

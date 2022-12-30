@@ -1,0 +1,35 @@
+.container-box {
+  display: flex;
+  justify-content: space-around;  
+}
+.container-box > div {
+  width: 44em; /* Declare your value. Can be in relative units. */
+  height: 20em;
+  display: inline-block;
+  vertical-align: center;
+  border: 1px #918b8b solid;
+
+  /* IE fix. */
+  *display: inline;
+  zoom: 1;
+}
+.wrap {
+  display: flex;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.item {
+  flex: 1;
+  height: 100px;
+  background: teal;
+  margin-right: 5px;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+.outer{
+  display: inline-table !important;
+}
