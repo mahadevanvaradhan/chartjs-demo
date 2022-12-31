@@ -20,7 +20,7 @@ import { ApexChartComponent } from './apex-chart/apex-chart.component';
 import { ApexStackedComponent } from './apex-stacked/apex-stacked.component';
 
 import { HomeComponent } from './home/home.component';
-import { BarChartComponent } from './bar-chart/bar-chart.component';
+import { BarChartComponent } from './initial-investment/initial-investment.component';
 import { GrossIRRComponent } from './gross-irr/gross-irr.component';
 import { CapitalDeployedComponent } from './capital-deployed/capital-deployed.component';
 import { TvpiComponent } from './tvpi/tvpi.component';

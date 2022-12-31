@@ -28,14 +28,14 @@ const barChartData: any = {
   ],
   datasets: [
     {
-      label: 'Fund',
+      label: 'Initial Investment',
       data: [22, 28, 36, 45, 54, 60, 65, 72, 80, 86, 92, 99, 101, 111, 115, 121, 126, 135, 139, 141, 152, 163, 168, 172],
       backgroundColor: '#06283D',
       borderColor: '#2196f3',
       borderWidth: 1
     },
     {
-      label: 'Investment',
+      label: 'Follow-on Investment',
       data: [31, 39, 45, 47, 52, 58, 64, 70, 74, 78, 85, 92, 96, 105, 116, 122, 131, 137, 145, 153, 156, 163, 168, 172],
       backgroundColor: '#47B5FF',
       borderColor: '#2196f3',

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BarChartComponent } from './bar-chart/bar-chart.component';
+import { BarChartComponent } from './initial-investment/initial-investment.component';
 import { GrossIRRComponent } from './gross-irr/gross-irr.component';
 import { ApexChartComponent } from './apex-chart/apex-chart.component';
 import { ApexStackedComponent } from './apex-stacked/apex-stacked.component';

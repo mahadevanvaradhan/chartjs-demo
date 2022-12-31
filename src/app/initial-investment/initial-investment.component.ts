@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import Chart from 'chart.js/auto';
-import barChartData from './bar-chart-data';
+import barChartData from './initial-investment-data';
 
 @Component({
-  selector: 'app-bar-chart',
-  templateUrl: './bar-chart.component.html',
-  styleUrls: ['./bar-chart.component.scss'],
+  selector: 'app-initial-investment',
+  templateUrl: './initial-investment.component.html',
+  styleUrls: ['./initial-investment.component.scss'],
 })
 export class BarChartComponent implements OnInit {
   public chart: any;
@@ -49,8 +49,16 @@ export class BarChartComponent implements OnInit {
               labels: {
                   color: 'rgb(255, 99, 132)'
               }
-          }
-        }
+          },
+        },
+        scales: {
+          x: {
+            stacked: true,
+          },
+          y: {
+            stacked: true,
+          },
+        },
       },
     });
   }
