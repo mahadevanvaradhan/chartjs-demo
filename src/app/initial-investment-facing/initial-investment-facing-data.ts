@@ -27,13 +27,12 @@ const data = {
   ],
   datasets: [
     {
-      label: 'Cummulative Net Cash Flow', // Name the series
-            data: [22, 28, 36, 45, 54, 60, 61, 62, 58, 86, 88, 89, 101, 102, 103, 101, 106, 115, 119, 121, 122, 125, 128, 132],
-            fill: false,
-            borderColor: '#2196f3', // Add custom color border (Line)
-            backgroundColor: '#ffff', // Add custom color background (Points and Fill)
-            borderWidth: 2 // Specify bar border width
-        },
+      label: 'No. of Deals',
+      data: [11, 29, 35, 37, 42, 48, 54, 60, 64, 68, 75, 82, 86, 95, 96, 112, 121, 127, 135, 148, 156, 158, 168, 182],
+      backgroundColor: '#c24d2c',
+      borderColor: '#2196f3',
+      borderWidth: 2
+    },
   ],
 };
 

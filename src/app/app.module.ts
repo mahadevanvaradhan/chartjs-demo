@@ -34,11 +34,13 @@ import { NewInvestmentComponent } from './new-investment/new-investment.componen
 import { TierReturnComponent } from './tier-return/tier-return.component'
 import { PortfolioValueComponent } from './portfolio-value/portfolio-value.component'
 import { NetIRRComponent } from './net-irr/net-irr.component'
+import { CapitalDeploymentComponent } from './capital-deployment/capital-deployment.component'
+import { InitialInvestmentFacingComponent } from './initial-investment-facing/initial-investment-facing.component'
 
 @NgModule({
   declarations: [AppComponent, BarChartComponent, GrossIRRComponent, ApexChartComponent, ApexStackedComponent, InvestmentMonthComponent,
     HomeComponent, SidenavComponent, CapitalDeployedComponent, TvpiComponent, LPCalledCapitalComponent, NewInvestmentComponent, 
-    TierReturnComponent, CummNetCashFlowComponent, NetCashFlowComponent, ReturnMonthComponent, PortfolioValueComponent, NetIRRComponent],
+    TierReturnComponent, InitialInvestmentFacingComponent, CapitalDeploymentComponent, CummNetCashFlowComponent, NetCashFlowComponent, ReturnMonthComponent, PortfolioValueComponent, NetIRRComponent],
   imports: [SidebarModule, BrowserModule, AppRoutingModule, NgApexchartsModule, BrowserAnimationsModule, BrowserModule,
     FormsModule,
     MaterialExampleModule,

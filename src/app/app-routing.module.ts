@@ -17,6 +17,8 @@ import { TierReturnComponent } from './tier-return/tier-return.component'
 import { PortfolioValueComponent } from './portfolio-value/portfolio-value.component'
 import { NetIRRComponent } from './net-irr/net-irr.component'
 import { CummNetCashFlowComponent } from './cumm-net-cash-flow/cumm-net-cash-flow.component';
+import { CapitalDeploymentComponent } from './capital-deployment/capital-deployment.component'
+import { InitialInvestmentFacingComponent } from './initial-investment-facing/initial-investment-facing.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -36,6 +38,8 @@ const routes: Routes = [
   { path: 'tierreturn', component: TierReturnComponent },
   { path: 'portfoliovalue', component: PortfolioValueComponent },
   { path: 'netirr', component: NetIRRComponent },
+  { path: 'capitaldeploymentcomponent', component: CapitalDeploymentComponent },
+  { path: 'initialinvestmentfacing', component: InitialInvestmentFacingComponent },
 
 
 ];

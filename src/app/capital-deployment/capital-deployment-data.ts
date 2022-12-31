@@ -27,13 +27,21 @@ const data = {
   ],
   datasets: [
     {
-      label: 'Cummulative Net Cash Flow', // Name the series
-            data: [22, 28, 36, 45, 54, 60, 61, 62, 58, 86, 88, 89, 101, 102, 103, 101, 106, 115, 119, 121, 122, 125, 128, 132],
+      label: 'Initial', // Name the series
+            data: [22, 28, 36, 45, 54, 70, 81, 82, 98, 106, 138, 149, 151, 162, 173, 181, 186, 195, 199, 210, 222, 225, 228, 232],
             fill: false,
             borderColor: '#2196f3', // Add custom color border (Line)
             backgroundColor: '#ffff', // Add custom color background (Points and Fill)
             borderWidth: 2 // Specify bar border width
         },
+        {
+          label: 'Follow-on', // Name the series
+                data: [12, 18, 16, 35, 34, 40, 41, 52, 58, 56, 98, 99, 111, 92, 93, 94, 96, 105, 109, 111, 112, 115, 118, 122],
+                fill: false,
+                borderColor: '#c24d2c', // Add custom color border (Line)
+                backgroundColor: '#ffff', // Add custom color background (Points and Fill)
+                borderWidth: 2 // Specify bar border width
+            }
   ],
 };
 
